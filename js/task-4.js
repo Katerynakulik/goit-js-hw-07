@@ -9,6 +9,7 @@ function handleSubmit(event) {
     }
 if (elements.email.value==='' || elements.password.value===''){
     alert('All form fields must be filled in');
+    return;
 };
     console.log(info);
     event.target.reset();
